@@ -1,0 +1,86 @@
+#sideNavContainer {
+  background-image: url('/src/images/bg-sidebar-desktop.svg');
+  width: 300px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: cover;
+  border-radius: 15px;
+  position: absolute;
+  margin-left: -670px;
+  margin-top: 15px;
+}
+
+#sideNavSteps {
+  margin-left: 120px;
+  color: white;
+  margin-top: 10px;
+  position: absolute;
+}
+.stepNum {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.top {
+  color: #abbcff;
+}
+#step1 {
+  color: white;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 19px;
+  border: 1px #eee solid;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#step2 {
+  margin-top: 20px;
+  margin-left: 10px;
+
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 19px;
+  border: 1px #eee solid;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+}
+#step3 {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+
+  text-align: center;
+  border-radius: 50%;
+  font-size: 19px;
+  border: 1px #eee solid;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+}
+#step4 {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 19px;
+  border: 1px #eee solid;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+}
