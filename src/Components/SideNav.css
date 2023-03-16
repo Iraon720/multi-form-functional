@@ -1,14 +1,41 @@
 #sideNavContainer {
-  /* background-image: url('/src/images/bg-sidebar-desktop.svg'); */
-  width: 300px;
-  height: 600px;
+  background-image: url('/src/images/bg-desktop.svg');
+  width: 275px;
+  height: 570px;
   background-repeat: no-repeat;
   background-position: cover;
   border-radius: 15px;
   position: absolute;
-  margin-left: -670px;
+  margin-left: -280px;
   margin-top: 15px;
+  
 }
+.nav-link{
+  color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 19px;
+  border: 1px #eee solid;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.nav-link.active{
+  color:#022959;
+  background-color: #BEE2FD;
+  
+}
+a:link{
+  text-decoration: none;
+}
+
 
 #sideNavSteps {
   margin-left: 120px;
@@ -26,7 +53,7 @@
 .top {
   color: #abbcff;
 }
-#step1 {
+/* #step1 {
   color: white;
   width: 20px;
   height: 20px;
@@ -83,4 +110,4 @@
   transition: 0.3s;
   cursor: pointer;
   color: white;
-}
+} */
