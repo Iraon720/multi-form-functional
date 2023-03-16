@@ -1,7 +1,7 @@
 function Step2() {
   return (
   <div className=''>
-<p>this page works</p>
+<p>this page works 2</p>
   </div>
   );
 }
