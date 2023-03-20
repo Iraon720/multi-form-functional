@@ -8,11 +8,11 @@ function ContextProvider({ children }) {
 
   const [isConfirmed, setIsConfirmed] = useState(false);
 
-  const [customerInfo, setCustomerInfo] = useState({
+  const [userInfo, setUserInfo] = useState({
     name: '',
     email: '',
     phone: '',
-    plan: { planName: 'Arcade', planPrice: 9 },
+    plan: { planType: 'Arcade', planPrice: 9 },
     addOns: [],
     isMonthly: true,
   });
@@ -22,8 +22,8 @@ function ContextProvider({ children }) {
       value={{
         currentStep,
         setCurrentStep,
-        customerInfo,
-        setCustomerInfo,
+        userInfo,
+        setUserInfo,
         isConfirmed,
         setIsConfirmed,
       }}

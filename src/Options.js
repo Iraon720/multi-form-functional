@@ -1,3 +1,6 @@
+import Arcade from './images/icon-arcade.svg'
+import Advanced from './images/icon-advanced.svg';
+import Pro from './images/icon-pro.svg';
 const options = {
   plans: [
     {
