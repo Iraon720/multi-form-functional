@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
 #cardHolder {
   display: flex;
+  flex-direction: row;
 
   justify-content: space-evenly;
   background-color: white;

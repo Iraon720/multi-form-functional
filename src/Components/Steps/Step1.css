@@ -1,0 +1,69 @@
+.personalForm {
+    flex-basis: 450px;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+    
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #022959;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+input.placeholder{
+  color:gray;
+
+}
+
+input {
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px;
+    border-color:#D6D9E6;
+    border-style: solid;
+    margin-bottom: 1rem;
+    color: #022959;
+    letter-spacing: .5px;
+    font-weight: bold;
+    width: 450px;
+  height: 10px;
+}
+.Name{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:hover {
+    border: 1px;
+    border-style:solid;
+    border-color:  #022959;;
+}
+
+.p{
+  color: grey;
+}
+h1{
+  color: #022959;
+}
+
+.required {
+    border-color: red;
+}
+
+.alert {
+    margin: 0 0 1rem 0;
+    color: red;
+    direction: rtl;
+}
